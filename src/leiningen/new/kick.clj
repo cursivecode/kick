@@ -12,6 +12,6 @@
              [".gitignore" (render "gitignore" data)]
              ["karma.conf.js" (render "karma.conf.js" data)]
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
-             ["src-cljs/{{sanitized}}/app.clj" (render "app.clj" data)]
-             ["test-cljs/{{sanitized}}/app_test.clj" (render "app_test.clj" data)]
+             ["src-cljs/{{sanitized}}/app.cljs" (render "app.cljs" data)]
+             ["test-cljs/{{sanitized}}/app_test.cljs" (render "app_test.cljs" data)]
              )))
