@@ -1,5 +1,5 @@
-(ns {{name}} .app-test
-  (:require [{{name.app}} :as app])
+(ns {{name}}.app-test
+  (:require [{{name}}.app :as app])
   (:require-macros [jasmine-cljs.macros :refer [describe it expect dont-expect]]
                    [protractor-cljs.macros :refer [by get-elem browser]]))
 

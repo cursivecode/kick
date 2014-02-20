@@ -1,6 +1,6 @@
 # kick
 
-ClojureScript template with testing
+ClojureScript starter template with testing
 
 ## Usage
 
