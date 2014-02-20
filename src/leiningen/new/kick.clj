@@ -10,7 +10,7 @@
     (->files data
              ["project.clj" (render "project.clj" data)]
              [".gitignore" (render "gitignore" data)]
-             [".karma.conf.js" (render "karma.conf.js" data)]
+             ["karma.conf.js" (render "karma.conf.js" data)]
              ["externs/angular.js" (render "angular.js" data)]
              ["src/{{sanitized}}/core.clj" (render "core.clj" data)]
              ["src-cljs/{{sanitized}}/app.clj" (render "app.clj" data)]
