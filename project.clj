@@ -1,4 +1,4 @@
-(defproject kick/lein-template "0.1.1"
+(defproject kick/lein-template "0.1.2"
   :description "ClojureScript starter template with testing"
   :url "https://github.com/cursivecode/kick"
   :license {:name "Eclipse Public License"
